@@ -7,11 +7,17 @@
 %%% TODO:
       %% \item New \code{rDatetime()} for random date/time sequences
       %% within a specified time range.
-\section{CHANGES in sfsmisc VERSION 1.1-25 [2026-06-12]}{
+\section{CHANGES in sfsmisc VERSION 1.1-25 [2026-08-03]}{
   \subsection{NEW FEATURES}{
     \itemize{
       \item \code{shortRversion()} gets new option \code{dots}, with
       \code{dots = FALSE} omitting \code{"."} from its result string.
+    }
+  }
+  \subsection{Misc}{
+    \itemize{
+      \item \file{tests/dDA.\{R,Rout.save\}}: now IGNORE the
+      \code{RNGversion(<old>)} warning.
     }
   }
 }

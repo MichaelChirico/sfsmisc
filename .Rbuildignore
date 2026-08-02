@@ -13,11 +13,12 @@ LICENSE.md
 NOTES-I-know
 .travis.yml
 ^git
+\.diff$
 ,v$
 -ss$
 mail
--log
 sfsmisc.*\.out
+-log
 -used-grep
 man/.*\.d$
 SfS-changes
