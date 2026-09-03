@@ -51,7 +51,7 @@ Description: Useful utilities ['goodies'] from Seminar fuer Statistik ETH Zurich
    integer codes, Duplicated(), toLatex.numeric() and is.whole().
 Depends: R (>= 3.3.0)
 Imports: grDevices, utils, stats, tools
-Suggests: datasets, tcltk, cluster, lattice, MASS, Matrix, nlme, lokern, Rmpfr, gmp
+Suggests: datasets, tcltk, cluster, lattice, MASS, Matrix, nlme, lokern, Rmpfr, gmp, splines
 Enhances: mgcv, rpart, nor1mix, polycor, sm, tikzDevice,
   DescTools, e1071, Hmisc, pastecs, polynom, relevance, robustbase
 EnhancesNote: 2nd line: packages mentioned in Rd xrefs
